@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR4k0324/v1
+canonical_location: https://kanripo.org/bkk/KR4k0324/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:80d2d927b8deb12efb4a2db45a88623d21d8eb0caa5df4e1fce34edd8ec300b3
+assets:
+  parts:
+  - {seq: 0, filename: KR4k0324_000.yaml, hash: 'sha256:9308dd9dfdc0d278eb4796b6cdef371ae8de757d6cb9d8e5f3ea0810c22a3e0b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4k0324_000.markers.yaml, hash: 'sha256:5d4fb82f453affdb215c347bebaf94bc0b441d45042156828563813bd6bd249b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4k0324_kf_000-h.1
+    span:
+    - body
+    - 0
+    - 102338
+  label: ''
+  type: section
+  level: 1
+metadata:
+  title: 武宗逸史
+  identifiers:
+    krp: KR4k0324
+  tags:
+    kr-categories: KR4k
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0324.xml
+  edition:
+    short: bkk
+hash: sha256:7925a8bb25fb88c894c845c79c7884c466269dda52dc9966634c49c72cc51662
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
